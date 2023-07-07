@@ -1,0 +1,19 @@
+## 一、环境搭建
+1. 安装插件 ：@vitejs/plugin-vue-jsx
+
+```bash
+pnpm add @vitejs/plugin-vue-jsx -D
+```
+
+2. 在 `vite.config.js` 中配置
+
+``` vue
+import { defineConfig } from 'vite'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+
+export default defineConfig({
+  plugins: [vueJsx()],
+})
+```
+
+3. 使用 `.jsx` 结尾的文件 或者 在 `.vue` 文件的 `script` 标签中加上 `lang="jsx"`
