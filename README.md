@@ -5,7 +5,7 @@
 pnpm add @vitejs/plugin-vue-jsx -D
 ```
 
-2. 在 `vite.config.js` 中配置
+2. 在 `vite.config.js`中配置
 
 ``` vue
 import { defineConfig } from 'vite'
@@ -16,4 +16,4 @@ export default defineConfig({
 })
 ```
 
-3. 使用 `.jsx` 结尾的文件 或者 在 `.vue` 文件的 `script` 标签中加上 `lang="jsx"`
+3. 使用.jsx结尾的文件 或者 在vue文件的script标签中加上lang="jsx"
