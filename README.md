@@ -1,5 +1,5 @@
 ## 一、环境搭建
-1. 安装插件 ：@vitejs/plugin-vue-jsx
+1. 安装插件 ：[@vitejs/plugin-vue-jsx](https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx)
 
 ```bash
 pnpm add @vitejs/plugin-vue-jsx -D
